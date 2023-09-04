@@ -1,0 +1,15 @@
+form div {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+form > div > div {
+    flex-direction: column;
+}
+
+input {
+    height: 2em;
+    width: 8em;
+    padding: 0 8px;
+}
